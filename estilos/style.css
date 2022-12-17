@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/*
+  Paleta de cores 
+  Verde: #49a09d
+  Lilás: #5f2c82
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html {
+    height: 100vh;
+}
+body{
+    background-color: #5f2c82;}
+    
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 540px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    font-size: 1em;
+}
+div#imagem {
+    margin: -10px ;
+    background-image: url(../imagens/pexels-essow-936713.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    border-radius: 10px 10px 0px 0px;
+    height: 150px;
+}
+div#formulario {
+    font-size: 16px;
+    padding-top: 30px;
+    text-align: left;
+}
+div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+div#formulario > p {
+    padding-bottom: 15px;
+    text-align: center;
+}
+.inputbox {
+    
+    
+    height: 50px;
+    background-color: #49a09d;
+    margin-bottom: 10px;
+    border-radius: 10px;
+   
+}
+label > span {
+    color: white;
+    padding-top: 13px;
+    padding-left: 3px;
+    
+}
+input.login{
+    position: absolute;
+    top: auto;
+    left: 40px;
+    width: 80%;
+    height: 50px;
+    background-color: #5f2c82;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 1.2em;
+}
+::-webkit-input-placeholder {
+    
+    color: #49a09d;
+}
+span#carta {
+    position: absolute;
+    top: 90.5%;
+    left: 80%;
+    color: white;
+
+}
+input#butao {
+    color: white;
+    width: 100%;
+    background-color: #49a09d;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input#butao:hover {
+    background-color:  #429491;
+}

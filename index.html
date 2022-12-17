@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/media-queries.css">
+
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>
+                    Seja bem-vindo(a) novamente. Faça login para acessar  sua conta e poder fazer as configurações no seu ambiente.
+                </p>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="inputbox">
+                        <label for="iemail"><span class="material-symbols-outlined">Person</span></label>
+                        <input type="email" name="email" id="iemail" autocomplete="email" placeholder="Seu e-mail..." required class="login" autofocus title="E-mail">
+                    </div>
+                    <div class="inputbox">
+                        <label for="isenha"><span class="material-symbols-outlined">Key</span></label>
+                        <input type="password" name="senha" id="isenha" autocomplete="current-password"  placeholder="Sua senha..." required class="login" title="Senha">
+                    </div>
+                    <div>
+                        <input type="submit" value="Entrar" id="butao">
+                        <br>
+                        <input type="button" value="Esqueci a senha" id="butao"> <span class="material-symbols-outlined" id="carta">Mail</span>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
